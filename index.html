@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Game Of Life</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <script src="libraries/p5.min.js"></script>
+    <script src="libraries/p5.sound.min.js"></script>
+  </head>
+
+  <body>
+
+    <!--CANVAS-->
+    <div id="div_canvas"></div>
+
+    <!--ACTIONS-->
+    <div id="wrapper_actions">
+        <button class="button" id="button_playback">Play</button>
+
+        <!--DELAY-->
+        <div id="wrapper_delay">
+          <label class="label">Delay(←→)</label>
+          <label class="label" id="label_delay"></input>
+        </div>
+
+        <!--COLOR-->
+        <div id="wrapper_color">
+          <label class="label">Color</label>
+          <br>
+          <input class="checkbox" type="checkbox" id="input_color">
+        </div>
+
+        <!--SIZE-->
+        <div id="wrapper_size">
+          <label class="label">Size(↑↓)</label>
+          <label class="label" id="label_size"></input>
+        </div>
+
+        <button class="button" id="button_random">Random</button>
+        <button class="button" id="button_clear">Clear</button>
+    </div>
+    
+    <script src="sketch.js"></script>
+    <script src="grid.js"></script>
+    <script src="cell.js"></script>
+  </body>
+</html>
