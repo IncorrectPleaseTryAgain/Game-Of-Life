@@ -1,6 +1,8 @@
 # Game-Of-Life
 Simple game of life simulation
 
+https://github.com/IncorrectPleaseTryAgain/Game-Of-Life/assets/99939034/eac9184d-0100-4b06-a44d-6e7ec8f08b01
+
 ## Description
 This projects takes inspiration from [Conway's Game of Life](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life). The program starts by giving the user a blank grid which they can use to toggle cells on/off. Once the simulation starts the cells behave in accordance to three simple rules. [1]
 
