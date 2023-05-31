@@ -1,6 +1,6 @@
 /*  Michael Steenkamp
 *   04/05/2023
-*   Game Of Life
+*   Game Of Life | Simple
 *
 *   Language: 
 *           JavaScript
